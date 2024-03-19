@@ -4,7 +4,7 @@
 
 Master Thesis Research Project exploring different data driven approaches to clustering customers in a retail industry.
 
-Implemented Unsupervised Learning models in Python and visulaized results using Microsoft PowerBI. Based on datasets provided by a confidential and credible source. The datasets included customer shopping and demographic data from two distinct locations of the same grocery retailer based in Rome, Italy.
+Implemented Unsupervised Learning models in Python and visulaized results using [Microsoft PowerBI](https://www.microsoft.com/en-us/power-platform/products/power-bi/). Based on datasets provided by a confidential and credible source. The datasets included customer shopping and demographic data from two distinct locations of the same grocery retailer based in Rome, Italy.
 
 I performed extensive exploratory data analysis and implemented multiple approaches to clustering to reach conclusive answers to multiple business questions and demands of the retailer. Furthermore, I extracted some of the treated data to PowerBI to create interactive reports and visualizations for better understanding.
 
