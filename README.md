@@ -8,7 +8,7 @@ Implemented Unsupervised Learning models in Python and visulaized results using 
 
 I performed extensive exploratory data analysis and implemented multiple approaches to clustering to reach conclusive answers to multiple business questions and demands of the retailer. Furthermore, I extracted some of the treated data to PowerBI to create interactive reports and visualizations for better understanding.
 
-See the `Master Thesis.pdf` file for a detailed report of my work.
+See the `Master Thesis.pdf` file for a detailed report of my work or `Master Thesis Presentation.pdf` for a brief summary of my work.
 
 ## 📦 Installation
 
