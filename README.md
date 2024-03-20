@@ -55,12 +55,25 @@ Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of 
 
 ### Example for Transactional Datasets:
 If a whole transaction made by a certain cardholder includes buying 4 unique items, it would look like following:  
+  
 2023-03-01 08:09:00,2,1,75,0,1,2.990,327298  
 2023-03-01 08:09:00,2,1,114,0,1,1.990,327298  
 2023-03-01 08:09:00,2,1,253,0,1,2.190,327298  
 2023-03-01 08:09:00,2,1,347,0,1,1.490,327298  
 
+If a whole transaction made by a certain non-cardholder includes 8 unique items, it would look like the following:  
 
+2023-03-01 08:52:00,3,1,20,0,2,4.180,00  
+2023-03-01 08:52:00,3,1,29,0,1,2.690,00  
+2023-03-01 08:52:00,3,1,31,0,2,3.000,00  
+2023-03-01 08:52:00,3,1,145,0,1,1.990,00  
+2023-03-01 08:52:00,3,1,265,0,1,0.150,00  
+2023-03-01 08:52:00,3,1,311,2,2,1.580,00  
+2023-03-01 08:52:00,3,1,351,0,2,2.580,00  
+2023-03-01 08:52:00,3,1,353,1,1,1.890,00  
+
+### 3️⃣ Dataset 3 - Cardholder Demographic Information:
+Dataset Features (
 
 
 
