@@ -24,13 +24,25 @@ You should also have some sort of Python environment manager installed, such as 
 
 You should also have access to [Microsoft PowerBI](https://www.microsoft.com/en-us/power-platform/products/power-bi/) to create your own dashboards and view my results.
 
+## ⚠ Exploratory Data Analysis:
+
+1. Demographic Analysis
+2. Transactional Analysis
+3. Item Sector Analysis
+4. Item Category Analysis
+5. Daily & Hourly Analysis
+6. Big Basket Analysis
+7. Cardholder Demographic Associations
+
 ## 🎯 Included Clustering Methods:
 
-1. K-Means Clustering
-2. Hierarchical Clustering
-3. Density Based Spatial Clustering of Applications with Noise
-
-And multiple different extensions of these methods using different features.
+1. Predefined Customer Segmentation through RFM
+2. RFM based K-Means Clustering
+3. Transactional Data focused K-Means Clustering
+4. Transactional Data focused DBSCAN
+5. Sectoral Shopping K-Means Clustering
+6. Promotional Shopping K-Means Clustering
 
 ## 🏗️ Datasets:
 
+A total of 6 datasets were under investigation. Check the files in 
