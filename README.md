@@ -47,13 +47,18 @@ You should also have access to [Microsoft PowerBI](https://www.microsoft.com/en-
 
 A total of 6 datasets were under investigation. The data files are not provided due to confidentiality reasons. The structure of the datasets and the information provided by them can be understood from the following:
 
-### Dataset 1 - Transactional Data for Location 1:
+### 1️⃣ Dataset 1 - Transactional Data for Location 1:
 Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
 
-### Dataset 2 - Transactional Data for Location 2:
+### 2️⃣ Dataset 2 - Transactional Data for Location 2:
 Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
 
-#### Example for Transactional Datasets:
+### Example for Transactional Datasets:
+A whole transaction made by a certain cardholder would look like:
+2023-03-01 08:09:00,2,1,75,0,1,2.990,327298
+2023-03-01 08:09:00,2,1,114,0,1,1.990,327298
+2023-03-01 08:09:00,2,1,253,0,1,2.190,327298
+2023-03-01 08:09:00,2,1,347,0,1,1.490,327298
 
 
 
