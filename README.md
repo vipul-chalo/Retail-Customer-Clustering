@@ -53,8 +53,8 @@ Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of 
 ### 2️⃣ Dataset 2 - Transactional Data for Location 2:
 Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
 
-### Example for Transactional Datasets:
-If a whole transaction made by a certain cardholder includes buying 4 unique items, it would look like following:  
+### Examples for Transactional Datasets:
+If a whole transaction made by a certain cardholder includes 4 unique items, it would look like following:  
   
 2023-03-01 08:09:00,2,1,75,0,1,2.990,327298  
 2023-03-01 08:09:00,2,1,114,0,1,1.990,327298  
@@ -72,9 +72,35 @@ If a whole transaction made by a certain non-cardholder includes 8 unique items,
 2023-03-01 08:52:00,3,1,351,0,2,2.580,00  
 2023-03-01 08:52:00,3,1,353,1,1,1.890,00  
 
-### 3️⃣ Dataset 3 - Cardholder Demographic Information:
-Dataset Features (
+### 3️⃣ Dataset 3 - Cardholder Demographic Information for Location 1:
+Dataset Features (4 count): ID Number, Birth Year, Sex, CAP
 
+### 4️⃣ Dataset 4 - Cardholder Demographic Information for Location 2:
+Dataset Features (4 count): ID Number, Birth Year, Sex, CAP
 
+### Examples for Cardholder Demographic Information Datasets:
+These datasets included demographic data for the cardholders that made any transactions in the transactional data. The data could look like the following:  
+  
+4051, NULL, NULL, NULL  
+4211, 1926, M, 00152  
+4718, 1973, F, NULL  
+4833, NULL, M, 00100  
 
+### 5️⃣ Dataset 5 - Item Sector Information:
+Dataset Features (2 count): Sector ID Number, Sector Name
 
+### Examples for Item Sector Dataset:
+The data looked like the following:  
+
+1,Beverages  
+2,Self-Service Counter  
+3,Non-Food Items  
+
+### 6️⃣ Dataset 6 - Item Category Information:
+Dataset Features (4 count): Category ID Number, Sector ID Number, Category Code, Category Name
+
+### Examples for Item Category Dataset:
+The data looked like the following:  
+  
+2,1,ABAA,NONALCOHOLIC BEVERAGES  
+3,1,ABAC,WATER  
