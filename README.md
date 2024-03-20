@@ -54,7 +54,7 @@ Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of 
 Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
 
 ### Example for Transactional Datasets:
-A whole transaction made by a certain cardholder would look like:  
+If a whole transaction made by a certain cardholder includes buying 4 unique items, it would look like following:  
 2023-03-01 08:09:00,2,1,75,0,1,2.990,327298  
 2023-03-01 08:09:00,2,1,114,0,1,1.990,327298  
 2023-03-01 08:09:00,2,1,253,0,1,2.190,327298  
