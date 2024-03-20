@@ -45,4 +45,18 @@ You should also have access to [Microsoft PowerBI](https://www.microsoft.com/en-
 
 ## 🏗️ Datasets:
 
-A total of 6 datasets were under investigation. Check the files in 
+A total of 6 datasets were under investigation. The data files are not provided due to confidentiality reasons. The structure of the datasets and the information provided by them can be understood from the following:
+
+### Dataset 1 - Transactional Data for Location 1:
+Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
+
+### Dataset 2 - Transactional Data for Location 2:
+Dataset Features (8 count): Date & Time Stamps, Cash Register Number, Number of Transaction on that cash register for the day, Item Category ID, Count bought on offer, Total Count bought, Total Amount spent, Cardholder ID
+
+#### Example for Transactional Datasets:
+
+
+
+
+
+
